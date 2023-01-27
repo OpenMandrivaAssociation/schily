@@ -9,7 +9,7 @@
 Summary:	A collection of command-line utilities originally written by J.Schilling
 Name:		schily
 Version:	2021.09.18
-Release:	1
+Release:	2
 License:	Various Open Source Licenses (CDDL.Schily, GPL-2.0, LGPL-2.1, BSD)
 Group:		Archiving/Cd burning
 URL:		http://schilytools.sourceforge.net/
@@ -31,9 +31,20 @@ The "Schily" Tool Box is a set of tools originally written by Jörg Schilling.
 %package -n cdrtools
 Summary:	Tools for working with writable CD, DVD and BluRay media
 Group:		Archiving/Cd burning
-Obsoletes:	cdrkit < 1.1.11-11
-Obsoletes:	cdrkit-genisoimage < 1.1.11-11
+Obsoletes:	cdrkit < 1.1.11-23
+Provides:	cdrkit = 1.1.11-23
+Obsoletes:	cdrkit-genisoimage < 1.1.11-23
+Provides:	cdrkit-genisoimage = 1.1.11-23
+Obsoletes:	cdrkit-icedax < 1.1.11-23
+Provides:	cdrkit-icedax = 1.1.11-23
+Obsoletes:	cdrkit-isotools < 1.1.11-23
+Provides:	cdrkit-isotools = 1.1.11-23
 Provides:	cdrecord = %{EVRD}
+Provides:	cdrecord-dvdhack = 4:2.01.01-1
+Provides:	cdrecord = 4:2.01.01-1
+Provides:	cdrecord-cdda2wav = %{EVRD}
+Provides:	cdrecord-isotools = %{EVRD}
+Provides:	genisoimage = %{EVRD}
 Provides:	mkisofs = %{EVRD}
 Conflicts:	man-pages < 4.05-1
 
@@ -73,6 +84,7 @@ by just about everything).
 
 %package -n btcflash
 Summary:	Flash tool for BTC CD drives
+Group:		Development/Tools
 
 %description -n btcflash
 Flash tool for BTC CD drives.

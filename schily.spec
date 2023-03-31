@@ -9,7 +9,7 @@
 Summary:	A collection of command-line utilities originally written by J.Schilling
 Name:		schily
 Version:	2021.09.18
-Release:	2
+Release:	3
 License:	Various Open Source Licenses (CDDL.Schily, GPL-2.0, LGPL-2.1, BSD)
 Group:		Archiving/Cd burning
 URL:		http://schilytools.sourceforge.net/

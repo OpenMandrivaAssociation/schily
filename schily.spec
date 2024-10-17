@@ -12,7 +12,7 @@ Version:	2021.09.18
 Release:	3
 License:	Various Open Source Licenses (CDDL.Schily, GPL-2.0, LGPL-2.1, BSD)
 Group:		Archiving/Cd burning
-URL:		http://schilytools.sourceforge.net/
+URL:		https://schilytools.sourceforge.net/
 Source0:	https://nav.dl.sourceforge.net/project/schilytools/%{name}-%{dashedver}.tar.bz2
 BuildRequires:	recode
 BuildRequires:	pkgconfig(libcap)
